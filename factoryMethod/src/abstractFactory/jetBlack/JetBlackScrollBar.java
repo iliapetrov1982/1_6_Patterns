@@ -1,6 +1,6 @@
-package jetBlack;
+package abstractFactory.jetBlack;
 
-import abstracts.ScrollBar;
+import abstractFactory.abstracts.ScrollBar;
 
 public class JetBlackScrollBar extends ScrollBar {
     @Override

@@ -1,9 +1,9 @@
-import abstracts.Button;
-import abstracts.GuiFactory;
-import abstracts.ScrollBar;
-import abstracts.TextArea;
-import jetBlack.JetBlackFactory;
-import roseGold.RoseGoldFactory;
+package abstractFactory;
+
+import abstractFactory.abstracts.GuiFactory;
+import abstractFactory.abstracts.ScrollBar;
+import abstractFactory.jetBlack.JetBlackFactory;
+import abstractFactory.roseGold.RoseGoldFactory;
 
 public class MainRoseGold {
     private static GuiFactory guiFactory;

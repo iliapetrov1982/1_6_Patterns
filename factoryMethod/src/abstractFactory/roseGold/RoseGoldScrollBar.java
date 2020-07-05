@@ -1,6 +1,6 @@
-package roseGold;
+package abstractFactory.roseGold;
 
-import abstracts.ScrollBar;
+import abstractFactory.abstracts.ScrollBar;
 
 public class RoseGoldScrollBar extends ScrollBar {
     @Override

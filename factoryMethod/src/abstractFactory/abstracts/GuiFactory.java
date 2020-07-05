@@ -1,4 +1,4 @@
-package abstracts;
+package abstractFactory.abstracts;
 
 public abstract class GuiFactory {
     public abstract ScrollBar createScrollBar();

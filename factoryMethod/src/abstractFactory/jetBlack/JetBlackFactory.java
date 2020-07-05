@@ -1,9 +1,9 @@
-package jetBlack;
+package abstractFactory.jetBlack;
 
-import abstracts.Button;
-import abstracts.GuiFactory;
-import abstracts.ScrollBar;
-import abstracts.TextArea;
+import abstractFactory.abstracts.Button;
+import abstractFactory.abstracts.GuiFactory;
+import abstractFactory.abstracts.ScrollBar;
+import abstractFactory.abstracts.TextArea;
 
 public class JetBlackFactory extends GuiFactory {
     @Override

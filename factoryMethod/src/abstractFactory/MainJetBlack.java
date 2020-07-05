@@ -1,11 +1,10 @@
-import abstracts.Button;
-import abstracts.GuiFactory;
-import abstracts.ScrollBar;
-import abstracts.TextArea;
-import jetBlack.JetBlackButton;
-import jetBlack.JetBlackFactory;
+package abstractFactory;
 
-import javax.swing.*;
+import abstractFactory.abstracts.Button;
+import abstractFactory.abstracts.GuiFactory;
+import abstractFactory.abstracts.ScrollBar;
+import abstractFactory.abstracts.TextArea;
+import abstractFactory.jetBlack.JetBlackFactory;
 
 public class MainJetBlack {
     private static GuiFactory guiFactory = new JetBlackFactory();
