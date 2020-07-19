@@ -1,5 +1,5 @@
 package prototype;
 
-public class Copyable {
-
+public interface Copyable {
+    Object copy();
 }

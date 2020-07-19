@@ -1,4 +1,5 @@
 package builder.zhenya;
 
-public class Cms {
+public enum  Cms {
+    WORDPRESS, ALIFRESCO;
 }

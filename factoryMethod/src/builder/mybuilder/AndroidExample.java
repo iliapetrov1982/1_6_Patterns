@@ -1,4 +1,4 @@
-package builder;
+package builder.mybuilder;
 
 public class AndroidExample {
 

@@ -37,7 +37,16 @@ public class Project implements Copyable {
 
     @Override
     public Object copy() {
-        Project copy = new Project();
-        return null;
+        Project copy = new Project(id, projectName, sourceCode);
+        return copy;
+    }
+
+    @Override
+    public String toString() {
+        return "Project{" +
+                "id=" + id +
+                ", projectName='" + projectName + '\'' +
+                ", sourceCode='" + sourceCode + '\'' +
+                '}';
     }
 }

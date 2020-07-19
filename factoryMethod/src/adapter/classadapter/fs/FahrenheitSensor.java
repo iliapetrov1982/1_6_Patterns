@@ -1,4 +1,4 @@
-package adapter.classadapter;
+package adapter.classadapter.fs;
 
 public class FahrenheitSensor {
     public double getFahrenheitTemperature() {

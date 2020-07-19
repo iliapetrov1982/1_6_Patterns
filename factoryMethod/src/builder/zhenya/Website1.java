@@ -1,6 +1,6 @@
 package builder.zhenya;
 
-public class Website {
+public class Website1 {
     private String name;
     private String cms;
     private int price;
